@@ -1,7 +1,7 @@
 <template>
   <q-page padding>
     <img
-      style="weight: 10px; width: 200px; margin-left: 100px; margin-top: 80px"
+      style="weight: 10px; width: 200px; margin-left: 95px; margin-top: 80px"
       src="https://cdn-icons-png.flaticon.com/512/1146/1146860.png"
     />
     <p class="text-h6">
