@@ -13,7 +13,8 @@ npm install
 ```bash
 quasar dev
 ```
-
+### Start the app mobile in client mode 
+**https://vine-weather.vercel.app/**
 
 ### Lint the files
 ```bash
@@ -29,8 +30,6 @@ yarn format
 # or
 npm run format
 ```
-
-
 
 ### Build the app for production
 ```bash
