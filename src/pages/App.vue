@@ -68,10 +68,8 @@ export default defineComponent({
     getLocation() {
       this.$q.loading.show(); //quasarconfig loading
       navigator.geolocation.getCurrentPosition((position) => {
-        console.log("position: ", position);
         this.lat = position.coords.latitude;
         this.lon = position.coords.longitude;
-        console.log("lat: ", this.lat);
         this.getWeather();
       });
     },
